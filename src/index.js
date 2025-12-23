@@ -1,5 +1,4 @@
-import React from "react";
-import { createRoot } from "react-dom/client";
+import ReactDOM from 'react-dom';
 import { Provider, useDispatch, useSelector } from "react-redux";
 import { configureStore, createSlice } from "@reduxjs/toolkit";
 
